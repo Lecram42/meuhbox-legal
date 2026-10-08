@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MeuhBox — Privacy Policy</title>
+<style>
+  /* TODO: swap --accent/--accent-2 for the app's own brand colors. */
+  :root{
+    --accent:#051F3B; --accent-2:#0a3a66; --highlight:#D5131F;
+    --text:#0d2438; --text-mute:#5a6b7a; --line:rgba(5,31,59,0.14);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#fff;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;}
+  .wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px;}
+  h1{font-weight:700;font-size:22px;margin:0 0 4px;color:var(--accent);}
+  h2{font-weight:700;font-size:19px;margin:40px 0 12px;color:var(--highlight);}
+  h3{font-size:15px;margin:20px 0 6px;color:var(--text);}
+  p{color:var(--text);font-size:15px;margin:0 0 14px;}
+  .meta{color:var(--text-mute);font-size:13px;margin-bottom:24px;}
+  .lang-nav{display:flex;gap:8px;margin-bottom:32px;flex-wrap:wrap;}
+  .lang-nav a{color:#fff;background:var(--accent-2);border-radius:20px;padding:6px 14px;font-size:13px;font-weight:700;text-decoration:none;}
+  section{border-top:1px solid var(--line);padding-top:8px;margin-top:8px;}
+  ul{color:var(--text);font-size:15px;padding-left:20px;margin:0 0 14px;}
+  li{margin-bottom:6px;}
+  a{color:var(--accent-2);}
+  .contact{background:rgba(5,31,59,0.04);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:12px;}
+  .crosslink{margin-top:32px;font-size:13px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: 2026-10-08 — Publisher: MeuhBox</p>
+
+  <!--
+    TODO before shipping — this is a skeleton, not legal advice:
+    - List every third-party SDK actually integrated (RevenueCat, AdMob,
+      analytics, crash reporting, etc.) and what data each one processes.
+    - State whether data is stored locally only, or sent to a server.
+    - Have this reviewed against the data your app actually collects before
+      submitting to the App Store / Play Store — both require an accurate
+      privacy policy URL and matching "app privacy" declarations. If the app
+      uses AdMob, its declaration is Device ID + Coarse Location +
+      Advertising Data, all used for Third-Party Advertising and tracking —
+      see TEMPLATE.md step 13 for the exact App Store Connect questionnaire
+      answers.
+    - Default language set for the portfolio is French / English / Spanish
+      (see TEMPLATE.md step 9) — write the SAME content in all three
+      <section> blocks below, not just one. Delete the fr/es sections (and
+      their .lang-nav links) if this particular app ships English-only.
+      See Lecram42/Cornall-legal for a finished reference.
+  -->
+
+  <div class="lang-nav">
+    <a href="#fr">Français</a>
+    <a href="#en">English</a>
+    <a href="#es">Español</a>
+  </div>
+
+  <section id="fr">
+    <h2>Français</h2>
+    <h3>Données que nous collectons</h3>
+    <p>TODO : décrire précisément ce qui est collecté (ex. reçus d'achat via RevenueCat, identifiant publicitaire via AdMob pour la diffusion des pubs, rien au-delà de ce qui est stocké sur l'appareil, etc).</p>
+    <h3>Services tiers</h3>
+    <p>TODO : lister les SDK utilisés, ex. RevenueCat (achats intégrés), Google AdMob (publicités).</p>
+    <h3>Conservation des données</h3>
+    <p>TODO.</p>
+    <div class="contact">Une question sur cette politique ? Écris à <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
+    <p class="crosslink"><a href="terms.html">Voir les conditions générales d'utilisation</a></p>
+  </section>
+
+  <section id="en">
+    <h2>English</h2>
+    <h3>Data we collect</h3>
+    <p>TODO: describe exactly what is collected (e.g. purchase receipts via RevenueCat, an advertising identifier via AdMob for ad delivery, none beyond what's stored on-device, etc).</p>
+    <h3>Third-party services</h3>
+    <p>TODO: list SDKs, e.g. RevenueCat (in-app purchase processing), Google AdMob (rewarded ads).</p>
+    <h3>Data retention</h3>
+    <p>TODO.</p>
+    <div class="contact">Questions about this policy: <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
+    <p class="crosslink"><a href="terms.html">View the Terms of Use</a></p>
+  </section>
+
+  <section id="es">
+    <h2>Español</h2>
+    <h3>Datos que recopilamos</h3>
+    <p>TODO: describe con precisión qué se recopila (p. ej. recibos de compra vía RevenueCat, un identificador publicitario vía AdMob para mostrar anuncios, nada más allá de lo almacenado en el dispositivo, etc).</p>
+    <h3>Servicios de terceros</h3>
+    <p>TODO: enumera los SDK utilizados, p. ej. RevenueCat (compras integradas), Google AdMob (anuncios).</p>
+    <h3>Conservación de los datos</h3>
+    <p>TODO.</p>
+    <div class="contact">¿Preguntas sobre esta política? Escribe a <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
+    <p class="crosslink"><a href="terms.html">Ver los términos y condiciones de uso</a></p>
+  </section>
+</div>
+</body>
+</html>

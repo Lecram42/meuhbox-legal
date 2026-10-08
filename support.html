@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MeuhBox — Support</title>
+<style>
+  /* TODO: swap --accent/--accent-2 for the app's own brand colors. */
+  :root{
+    --accent:#051F3B; --accent-2:#0a3a66; --highlight:#D5131F;
+    --text:#0d2438; --line:rgba(5,31,59,0.14);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#fff;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;}
+  .wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px;}
+  h1{font-weight:700;font-size:22px;margin:0 0 4px;color:var(--accent);}
+  h2{font-weight:700;font-size:19px;margin:40px 0 12px;color:var(--highlight);}
+  h3{font-size:15px;margin:20px 0 6px;color:var(--text);}
+  p{color:var(--text);font-size:15px;margin:0 0 14px;}
+  .lang-nav{display:flex;gap:8px;margin-bottom:32px;flex-wrap:wrap;}
+  .lang-nav a{color:#fff;background:var(--accent-2);border-radius:20px;padding:6px 14px;font-size:13px;font-weight:700;text-decoration:none;}
+  section{border-top:1px solid var(--line);padding-top:8px;margin-top:8px;}
+  a{color:var(--accent-2);}
+  .contact{background:rgba(5,31,59,0.04);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>MeuhBox Support</h1>
+
+  <!--
+    TODO: add an FAQ section once you have real recurring support
+    questions. Default language set for the portfolio is French / English
+    / Spanish (see TEMPLATE.md step 9) — write the SAME content in all
+    three <section> blocks below, not just one. Delete the fr/es sections
+    (and their .lang-nav links) if this particular app ships English-only.
+  -->
+
+  <div class="lang-nav">
+    <a href="#fr">Français</a>
+    <a href="#en">English</a>
+    <a href="#es">Español</a>
+  </div>
+
+  <section id="fr">
+    <h2>Français</h2>
+    <p>Une question, un bug à signaler, ou besoin d'aide avec MeuhBox ? Écris-nous, on répond aussi vite que possible.</p>
+    <div class="contact">
+      <p style="margin:0;">📧 <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section id="en">
+    <h2>English</h2>
+    <p>Question, bug report, or need help with MeuhBox? Reach out, we'll get back to you as fast as we can.</p>
+    <div class="contact">
+      <p style="margin:0;">📧 <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section id="es">
+    <h2>Español</h2>
+    <p>¿Tienes alguna pregunta, quieres reportar un error o necesitas ayuda con MeuhBox? Escríbenos, te responderemos lo antes posible.</p>
+    <div class="contact">
+      <p style="margin:0;">📧 <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a></p>
+    </div>
+  </section>
+</div>
+</body>
+</html>
