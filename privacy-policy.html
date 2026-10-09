@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>MeuhBox — Privacy Policy</title>
 <style>
-  /* TODO: swap --accent/--accent-2 for the app's own brand colors. */
+  /* MeuhBox brand: red of the Paris box lid. */
   :root{
-    --accent:#051F3B; --accent-2:#0a3a66; --highlight:#D5131F;
-    --text:#0d2438; --text-mute:#5a6b7a; --line:rgba(5,31,59,0.14);
+    --accent:#8F1418; --accent-2:#B81E23; --highlight:#E3262B;
+    --text:#2a1214; --text-mute:#6b5a5b; --line:rgba(143,20,24,0.14);
   }
   *{box-sizing:border-box;}
   body{margin:0;background:#fff;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;}
@@ -24,33 +24,14 @@
   ul{color:var(--text);font-size:15px;padding-left:20px;margin:0 0 14px;}
   li{margin-bottom:6px;}
   a{color:var(--accent-2);}
-  .contact{background:rgba(5,31,59,0.04);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:12px;}
+  .contact{background:rgba(143,20,24,0.04);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:12px;}
   .crosslink{margin-top:32px;font-size:13px;}
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated: 2026-10-08 — Publisher: MeuhBox</p>
-
-  <!--
-    TODO before shipping — this is a skeleton, not legal advice:
-    - List every third-party SDK actually integrated (RevenueCat, AdMob,
-      analytics, crash reporting, etc.) and what data each one processes.
-    - State whether data is stored locally only, or sent to a server.
-    - Have this reviewed against the data your app actually collects before
-      submitting to the App Store / Play Store — both require an accurate
-      privacy policy URL and matching "app privacy" declarations. If the app
-      uses AdMob, its declaration is Device ID + Coarse Location +
-      Advertising Data, all used for Third-Party Advertising and tracking —
-      see TEMPLATE.md step 13 for the exact App Store Connect questionnaire
-      answers.
-    - Default language set for the portfolio is French / English / Spanish
-      (see TEMPLATE.md step 9) — write the SAME content in all three
-      <section> blocks below, not just one. Delete the fr/es sections (and
-      their .lang-nav links) if this particular app ships English-only.
-      See Lecram42/Cornall-legal for a finished reference.
-  -->
+  <p class="meta">Dernière mise à jour / Last updated : 9 octobre 2026 — Éditeur / Publisher : MeuhBox</p>
 
   <div class="lang-nav">
     <a href="#fr">Français</a>
@@ -60,37 +41,70 @@
 
   <section id="fr">
     <h2>Français</h2>
-    <h3>Données que nous collectons</h3>
-    <p>TODO : décrire précisément ce qui est collecté (ex. reçus d'achat via RevenueCat, identifiant publicitaire via AdMob pour la diffusion des pubs, rien au-delà de ce qui est stocké sur l'appareil, etc).</p>
-    <h3>Services tiers</h3>
-    <p>TODO : lister les SDK utilisés, ex. RevenueCat (achats intégrés), Google AdMob (publicités).</p>
+    <p>MeuhBox n'a pas de compte utilisateur et ne fait tourner aucun serveur : l'application fonctionne entièrement sur ton appareil. Tes réglages et la liste des boîtes que tu as débloquées sont stockés localement et ne nous sont jamais transmis.</p>
+    <h3>Capteur de mouvement</h3>
+    <p>MeuhBox lit le capteur de mouvement de ton téléphone uniquement pour détecter quand tu le retournes, afin de faire meugler la boîte. Ces mesures sont traitées en direct sur ton appareil : elles ne sont ni enregistrées, ni envoyées à qui que ce soit. Si tu refuses l'accès au capteur, tu peux toujours faire meugler la boîte en la touchant.</p>
+    <h3>Publicité</h3>
+    <p>MeuhBox est gratuite. La boîte de Paris est offerte ; chaque autre boîte se débloque en regardant une vidéo publicitaire, uniquement quand tu le choisis. Ces vidéos sont fournies par Google AdMob, qui peut collecter :</p>
+    <ul>
+      <li>l'identifiant publicitaire de ton appareil (IDFA sur iOS), seulement si tu l'autorises via la fenêtre « App Tracking Transparency » d'iOS ;</li>
+      <li>une localisation approximative déduite de ton adresse IP (jamais ta position GPS précise, que MeuhBox ne demande pas) ;</li>
+      <li>des données d'usage liées aux publicités (pubs vues, interactions) et des données de diagnostic (plantages, performances).</li>
+    </ul>
+    <p>Ces données servent à diffuser et mesurer les publicités. Selon ta région, un formulaire de consentement (Google UMP) peut aussi s'afficher. Nous ne recevons ni ne stockons ces données nous-mêmes : elles sont traitées directement par Google, selon sa propre <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité</a>. Tu peux à tout moment refuser le suivi dans Réglages &gt; Confidentialité et sécurité &gt; Suivi.</p>
+    <h3>Ce que nous ne collectons pas</h3>
+    <p>MeuhBox ne demande ni compte, ni e-mail, ni nom, ni aucune autre information personnelle. L'application n'utilise ni le micro, ni l'appareil photo, ni tes contacts.</p>
+    <h3>Enfants</h3>
+    <p>MeuhBox convient à tout public, mais n'est pas conçue spécifiquement pour les enfants et contient de la publicité. Les publicités sont demandées avec un classement de contenu « tout public ».</p>
     <h3>Conservation des données</h3>
-    <p>TODO.</p>
-    <div class="contact">Une question sur cette politique ? Écris à <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
+    <p>Tes réglages et tes boîtes débloquées restent sur ton appareil jusqu'à ce que tu supprimes les données de l'application ou que tu la désinstalles. Rien n'est conservé ailleurs par nous, puisque rien n'est envoyé à un serveur que nous contrôlons.</p>
+    <div class="contact">Une question sur cette politique ou sur tes données ? Écris à <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
     <p class="crosslink"><a href="terms.html">Voir les conditions générales d'utilisation</a></p>
   </section>
 
   <section id="en">
     <h2>English</h2>
-    <h3>Data we collect</h3>
-    <p>TODO: describe exactly what is collected (e.g. purchase receipts via RevenueCat, an advertising identifier via AdMob for ad delivery, none beyond what's stored on-device, etc).</p>
-    <h3>Third-party services</h3>
-    <p>TODO: list SDKs, e.g. RevenueCat (in-app purchase processing), Google AdMob (rewarded ads).</p>
+    <p>MeuhBox has no user account and runs no server: the app works entirely on your device. Your settings and the list of boxes you have unlocked are stored locally and are never sent to us.</p>
+    <h3>Motion sensor</h3>
+    <p>MeuhBox reads your phone's motion sensor only to detect when you turn it upside down, so the box can moo. These readings are processed live on your device: they are never recorded or sent to anyone. If you deny motion access, you can still make the box moo by tapping it.</p>
+    <h3>Advertising</h3>
+    <p>MeuhBox is free. The Paris box is included; each other box unlocks by watching a video ad, only when you choose to. These videos are provided by Google AdMob, which may collect:</p>
+    <ul>
+      <li>your device's advertising identifier (IDFA on iOS), only if you allow it through the iOS "App Tracking Transparency" prompt;</li>
+      <li>an approximate location derived from your IP address (never your precise GPS location, which MeuhBox does not request);</li>
+      <li>ad-related usage data (ads viewed, interactions) and diagnostic data (crashes, performance).</li>
+    </ul>
+    <p>This data is used to serve and measure ads. Depending on your region, a consent form (Google UMP) may also be shown. We do not receive or store this data ourselves: it is processed directly by Google under its own <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>. You can turn tracking off at any time in Settings &gt; Privacy &amp; Security &gt; Tracking.</p>
+    <h3>What we don't collect</h3>
+    <p>MeuhBox does not ask for an account, an email address, a name or any other personal information. The app does not use the microphone, the camera or your contacts.</p>
+    <h3>Children</h3>
+    <p>MeuhBox is suitable for all ages, but it is not designed specifically for children and it contains ads. Ads are requested with a "general audiences" content rating.</p>
     <h3>Data retention</h3>
-    <p>TODO.</p>
-    <div class="contact">Questions about this policy: <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
+    <p>Your settings and unlocked boxes stay on your device until you clear the app's data or uninstall it. Nothing is kept elsewhere by us, since nothing is sent to a server we control.</p>
+    <div class="contact">Questions about this policy or your data: <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
     <p class="crosslink"><a href="terms.html">View the Terms of Use</a></p>
   </section>
 
   <section id="es">
     <h2>Español</h2>
-    <h3>Datos que recopilamos</h3>
-    <p>TODO: describe con precisión qué se recopila (p. ej. recibos de compra vía RevenueCat, un identificador publicitario vía AdMob para mostrar anuncios, nada más allá de lo almacenado en el dispositivo, etc).</p>
-    <h3>Servicios de terceros</h3>
-    <p>TODO: enumera los SDK utilizados, p. ej. RevenueCat (compras integradas), Google AdMob (anuncios).</p>
+    <p>MeuhBox no tiene cuentas de usuario ni utiliza ningún servidor: la aplicación funciona por completo en tu dispositivo. Tus ajustes y la lista de cajas que has desbloqueado se guardan localmente y nunca se nos envían.</p>
+    <h3>Sensor de movimiento</h3>
+    <p>MeuhBox lee el sensor de movimiento de tu teléfono solo para detectar cuándo le das la vuelta, para que la caja muja. Estas lecturas se procesan en directo en tu dispositivo: no se graban ni se envían a nadie. Si deniegas el acceso al sensor, puedes hacer mugir la caja tocándola.</p>
+    <h3>Publicidad</h3>
+    <p>MeuhBox es gratuita. La caja de París está incluida; cada una de las demás se desbloquea viendo un vídeo publicitario, solo cuando tú lo decides. Estos vídeos los proporciona Google AdMob, que puede recopilar:</p>
+    <ul>
+      <li>el identificador publicitario de tu dispositivo (IDFA en iOS), solo si lo autorizas mediante la ventana «App Tracking Transparency» de iOS;</li>
+      <li>una ubicación aproximada deducida de tu dirección IP (nunca tu ubicación GPS precisa, que MeuhBox no solicita);</li>
+      <li>datos de uso relacionados con los anuncios (anuncios vistos, interacciones) y datos de diagnóstico (cierres inesperados, rendimiento).</li>
+    </ul>
+    <p>Estos datos sirven para mostrar y medir los anuncios. Según tu región, también puede aparecer un formulario de consentimiento (Google UMP). Nosotros no recibimos ni almacenamos estos datos: los trata directamente Google, conforme a su propia <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad</a>. Puedes desactivar el seguimiento en cualquier momento en Ajustes &gt; Privacidad y seguridad &gt; Rastreo.</p>
+    <h3>Lo que no recopilamos</h3>
+    <p>MeuhBox no pide cuenta, correo electrónico, nombre ni ningún otro dato personal. La aplicación no utiliza el micrófono, la cámara ni tus contactos.</p>
+    <h3>Menores</h3>
+    <p>MeuhBox es apta para todos los públicos, pero no está diseñada específicamente para niños y contiene publicidad. Los anuncios se solicitan con una clasificación de contenido «para todos los públicos».</p>
     <h3>Conservación de los datos</h3>
-    <p>TODO.</p>
-    <div class="contact">¿Preguntas sobre esta política? Escribe a <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
+    <p>Tus ajustes y tus cajas desbloqueadas permanecen en tu dispositivo hasta que borres los datos de la aplicación o la desinstales. No conservamos nada en otro lugar, ya que nada se envía a un servidor que controlemos.</p>
+    <div class="contact">¿Preguntas sobre esta política o tus datos? Escribe a <a href="mailto:hello.countit@gmail.com">hello.countit@gmail.com</a>.</div>
     <p class="crosslink"><a href="terms.html">Ver los términos y condiciones de uso</a></p>
   </section>
 </div>
